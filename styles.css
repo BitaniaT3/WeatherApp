@@ -1,7 +1,7 @@
 #site-title {
     font-size: 2.5rem;
-    font-family: 'Georgia', serif;
-    color: #00aaff;
+    font-family: 'times', times;
+    color: #ff0000;
     margin-bottom: 30px;
   }
 
@@ -11,15 +11,15 @@
     display: flex;
     justify-content: center;
     padding: 50px;
-    background-color: #eef2f3;
+    background-color: #f4f2ba;
     
   }
   
   /* Weather card */
   .weather-card {
-    background-color: white;
+    background-color: rgb(245, 180, 139);
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(204, 62, 62, 0.1);
     padding: 30px 40px;
     text-align: center;
     margin: 10px;
@@ -51,10 +51,10 @@
   }
   
   .rainy {
-    border-top: 5px solid #00aaff;
+    border-top: 5px solid #ff0808;
   }
   
   .cloudy {
-    border-top: 5px solid #b0bec5;
+    border-top: 5px solid #ff0606;
   }
   
